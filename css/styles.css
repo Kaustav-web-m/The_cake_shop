@@ -1,0 +1,285 @@
+/* font-family: 'Adamina', serif;
+font-family: 'Akaya Kanadaka', cursive;
+font-family: 'Benne', serif;
+font-family: 'Cantata One', serif;
+font-family: 'Caveat', cursive;
+font-family: 'Courgette', cursive;
+font-family: 'Coustard', serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'Francois One', sans-serif;
+font-family: 'Hind Vadodara', sans-serif;
+font-family: 'Indie Flower', cursive;
+font-family: 'Marck Script', cursive;
+font-family: 'Noto Serif', serif;
+font-family: 'Ropa Sans', sans-serif;
+font-family: 'Sacramento', cursive;
+font-family: 'Volkhov', serif; */
+/* font-family: 'Architects Daughter', cursive;
+font-family: 'Benne', serif;
+font-family: 'Caveat', cursive;
+font-family: 'Courgette', cursive;
+font-family: 'Kalam', cursive;
+font-family: 'Kirang Haerang', cursive;
+font-family: 'Mate SC', serif;
+font-family: 'Newsreader', serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Sacramento', cursive; */
+/*  title n*/
+body {
+  text-align: center;
+}
+
+.nav-link {
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  padding: 25px;
+  margin-right: 30px;
+}
+
+.navbar-brand {
+  font-family: 'Sacramento', cursive;
+  font-size: 65px;
+  padding: 30px;
+}
+
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+.p1 {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes p1 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+#title {
+  background-color: #FF616D;
+  font-family: 'Coustard', serif;
+  color: white;
+}
+
+.row {
+  padding: 20px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+
+.iphone {
+  height: 700px;
+  width: 380px;
+  transform: rotate(15deg);
+  position: absolute;
+  left: 70px;
+}
+
+@media(max-width :1000px) {
+  .iphone {
+    transform: rotate(0);
+    /*  Absolute rotation */
+    position: static;
+  }
+}
+
+.h {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-size: 60px;
+  color: white;
+}
+
+#features {
+  font-family: 'Courgette', cursive;
+  font-size: 15px;
+  position: relative;
+  padding: 50px;
+  background-color: white;
+  z-index: 1;
+}
+
+.col-lg-4, .col-lg-6 {
+
+  margin-bottom: 30px;
+  padding: 20px;
+  color: grey;
+}
+
+.icon {
+  color: #FF616D;
+  font-size: 45px;
+}
+
+.icon:hover {
+  color: #DA0037;
+}
+
+h3 {
+  margin: 15px;
+  color: #FF616D;
+  font-size: 30px;
+}
+
+                               /* Testimonials */
+
+#testimonials {
+  padding: 20px;
+  margin-bottom: 100px;
+  margin-top: 20px;
+  background-color: #FF616D;
+  font-family: 'Coustard', serif;
+  color: white;
+}
+
+.cake {
+  height: 200px;
+  width: 220px;
+  border-radius: 100%;
+  border-style: solid;
+  border: thick double;
+  border-width: 10px;
+  margin: 10px 30px 10px 30px;
+}
+
+.cake:hover {
+  color: #DA0037;
+}
+
+.h2 {
+  font-size: 40px;
+  padding: 20px 50px 20px 50px;
+  line-height: 2;
+}
+
+.p1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 40px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.price-heading {
+  font-family: 'Coustard', serif;
+  font-size: 60px;
+  color: #FF616D;
+}
+
+.card {
+  border-style: solid;
+  border: 10px solid #FF616D;
+
+}
+
+.cake-menu {
+  height: 200px;
+  width: 220px;
+  border-radius: 100%;
+  border-style: solid;
+  border: thick double #FF616D;
+  border-width: 10px;
+  margin: 10px 30px 10px 30px;
+}
+
+.p2 {
+  font-family: 'Sacramento', cursive;
+  color: grey;
+  font-size: 40px;
+  padding: 20px;
+  margin: 20px;
+}
+
+
+
+.btnb {
+  border: thick double #FF616D;
+  border-style: solid;
+}
+
+.todays-special {
+  font-family: 'Coustard', serif;
+  font-size: 30px;
+  color: #FF616D;
+}
+
+#cta {
+  background-color: #FF616D;
+  padding: 30px;
+}
+
+.last {
+  font-family: 'Coustard', serif;
+  color: white;
+  font-size: 45px;
+  margin-top: : 50px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+#footer {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-family: 'Coustard', serif;
+  color: grey;
+  font-size: 25px;
+}
+
+.icon-f {
+  color: grey;
+  font-size: 30px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.icon-f:hover {
+  color: #FF616D;
+}
+
+.cake-last-img {
+  border: thick double white;
+  height: 200px;
+  width: 220px;
+  border-radius: 100%;
+  border-width: 10px;
+  margin: 20px;
+}
+
+.cake-last-img:hover {
+  border-color: #DA0037;
+}
+
+.icon-l {
+  color: grey;
+  font-size: 30px;
+  text-align: center;
+}
+
+.icon-l:hover {
+  color: #FF616D;
+}
